@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3045713035507208336}
   - component: {fileID: 5032482280879319596}
+  - component: {fileID: 5997471460105618405}
   m_Layer: 0
-  m_Name: RedBall
+  m_Name: Ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,3 +83,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5997471460105618405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7145784246299506200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eba4026a8e8b5252a1dbf01968e555f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alliance: 0
+  spriteRenderer: {fileID: 5032482280879319596}
