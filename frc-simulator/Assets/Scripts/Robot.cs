@@ -41,7 +41,7 @@ public class Robot : MonoBehaviour {
     public void ShootBall() {
         if (ballsIntaked < 1) return;
         ballsIntaked--;
-        GameObject ball = Instantiate(ballsIntaked, transform.position, transform.rotation);
-        ball.GetComponent<Ball>().ShootBall();
+        GameObject ball = Instantiate(ballPrefab, transform.position, transform.rotation);
+        ball.GetComponent<Ball>().Shoot();
     }
 }

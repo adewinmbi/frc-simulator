@@ -22,6 +22,6 @@ public class Ball : MonoBehaviour
     }
 
     public void Shoot() {
-        animator.setBool("BeingShot", true);
+        animator.SetBool("BeingShot", true);
     }
 }
