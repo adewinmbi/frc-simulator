@@ -5,7 +5,7 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
     public Robot.Alliance alliance;
-
+    private Animator animator;
     public SpriteRenderer spriteRenderer;
 
     // Start is called before the first frame update
@@ -19,5 +19,9 @@ public class Ball : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void Shoot() {
+        animator.setBool("BeingShot", true);
     }
 }

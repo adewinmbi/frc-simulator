@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3045713035507208336}
   - component: {fileID: 5032482280879319596}
   - component: {fileID: 5997471460105618405}
+  - component: {fileID: 6791857307891903084}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -97,3 +98,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   alliance: 0
   spriteRenderer: {fileID: 5032482280879319596}
+--- !u!95 &6791857307891903084
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7145784246299506200}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 741a11a50a26304e5b969fb6b9801721, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
