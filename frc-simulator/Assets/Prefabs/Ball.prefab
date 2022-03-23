@@ -8,15 +8,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD:frc-simulator/Assets/Prefabs/RedBall.prefab
-  - component: {fileID: 8996446071754640336}
-  - component: {fileID: 3500496680990885340}
-=======
   - component: {fileID: 3045713035507208336}
   - component: {fileID: 5032482280879319596}
   - component: {fileID: 5997471460105618405}
   - component: {fileID: 6791857307891903084}
->>>>>>> 47a91df215de0a2bf511d14410c313a23f96ea53:frc-simulator/Assets/Prefabs/Ball.prefab
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
